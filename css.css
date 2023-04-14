@@ -1,0 +1,163 @@
+.container {
+  justify-content: center;
+  margin: 10%;
+  align-items: stretch;
+}
+
+.item_1 {
+  color: white;
+  width: 25vw;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #6340fc;
+  background: linear-gradient(
+    180deg,
+    rgba(99, 64, 252, 1) 0%,
+    rgba(49, 44, 234, 1) 100%
+  );
+  padding: 10px;
+}
+
+.item_2 {
+  color: black;
+  height: 50%;
+  width: 25vw;
+  text-align: center;
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  padding: 10px;
+}
+
+.titleResult {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.circle {
+  text-align: center;
+  background: #4c23ca;
+  border-radius: 50%;
+  width: 10vw;
+  height: 10vw;
+
+  background: rgb(76, 35, 202);
+  background: linear-gradient(
+    183deg,
+    rgba(76, 35, 202, 1) 0%,
+    rgba(72, 53, 241, 1) 100%
+  );
+  margin: auto;
+  position: relative;
+}
+
+.resultValue {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6vw;
+  font-weight: bold;
+}
+
+.of100 {
+  position: absolute;
+  top: 80%;
+  left: 35%;
+  color: grey;
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+.great {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 3vw;
+}
+
+.description {
+  font-size: 1vw;
+}
+
+.title_2 {
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.categoryLabel {
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+.category {
+  padding: 5%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  display: flex;
+  background-color: #2596be;
+   justify-content: space-between;
+}
+
+.redCat {
+  background-color: #fff6f5;
+  color: #ffa5a7;
+}
+
+.yellowCat {
+  background-color: #fffbf2;
+  color: #fcc859;
+}
+
+.greenCat {
+  background-color: #f2fbfa;
+  color: #84e0ce;
+}
+
+.blueCat {
+  background-color: #f3f3fd;
+  color: #cad5f5;
+}
+
+.note {
+  color: grey;
+align-content: flex-end;
+}
+
+.myButton {
+  background-color: #233327;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 2vw;
+  padding: 2vw;
+  text-decoration: none;
+  max-width: 100%;
+}
+.myButton:hover {
+  background-color: #5cbf2a;
+}
+
+@media (min-width: 1001px) {
+  .container {
+    display: flex;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    display: flex;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+  }
+}
